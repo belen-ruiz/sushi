@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: rgb(226, 229, 231);
+}
+
+.contenedor{
+    margin: 0 2rem;
+}
+
+#header-productos{
+    position: sticky;
+    top: 0;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+main .search input{
+    position: relative;
+    width: 80%;
+    border: none;
+    border-radius: 30px ;
+    background-color: rgb(255, 255, 255);
+    color: rgb(95, 97, 97);
+    padding: 1rem;
+    
+}
+
+main .search #icon{
+    position: absolute;
+    top: 125px;
+    left: 50px;
+    z-index: 1;
+    opacity: 0.4;
+}
+
+
+main .filtros{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .filtros div button{
+    display: flex;
+    background-color: aliceblue;
+}
+
+main .filtros .categorias{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+
+
+main .filtros .categorias p{
+    background-color: rgb(255, 255, 255);
+    align-self: center;
+
+}
+
+
+
+main .productos{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 2rem;
+    width: 40%;
+}
